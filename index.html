@@ -5,12 +5,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Welcome to jotr</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+		* { box-sizing: border-box; }
+		html, body { margin: 0px; padding: 0px; height: 100%; }
+		body {
+			font-family: 'Source Code Pro', sans-serif;
+			background-color: #111111;
+			background-image: linear-gradient(to bottom right, #000000, #222222);
+			color: silver;
+		}
+
+		a, a:link, a:visited, a:hover, a:active {
+			font-weight: 900;
+			color: #eeeeee;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		.panel {
+			width: 750px;
+			margin-top: 40px;
+			margin-bottom:40px;
+			margin-left: auto;
+			margin-right: auto;
+			border: 1px solid #666666;
+			background-color: #222222;
+			background-image: linear-gradient(to bottom right, #222222, #333333);
+			padding: 20px;
+		}
+	</style>
 </head>
 <body>
-	<h1>Welcome to jotr!</h1>
-	<p>Pardon the mess, or lack thereof. We are just moving in, and will have more content for you shortly. Please visit us at <a href="https://github.com/hakash/jotr">GitHub</a> for now.</p>
-	<p>
-		<b><i>- The jotr team</i></b>
-	</p>
+	<div>
+		<img src="jotr_logo.png" height="50px">
+	</div>
+	<div class="panel">
+		<h1>Welcome to jotr!</h1>
+		<p>Pardon the mess, or lack thereof. We are just moving in, and will have more content for you shortly. Please visit us at <a href="https://github.com/hakash/jotr">GitHub</a> for now.</p>
+		<p>
+			<b><i>- The jotr team</i></b>
+		</p>
+	</div>
 </body>
 </html>
